@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "https://lurkforgoals-backend.vercel.app/",
+  "proxy": "https://lurkforgoals-backend.vercel.app",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
