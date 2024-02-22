@@ -4,12 +4,13 @@ This is the app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=
 
 ## Usage
 
-Use your own .env
+Use your own ```.env``` in the backend folder
 
 ### Install dependencies
 
 ```
 # Backend deps
+cd backend
 npm install
 
 # Frontend deps
