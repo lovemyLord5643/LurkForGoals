@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["lurkforgoals-frontend.vercel.app"],
+    origin: ["https://lurkforgoals-frontend.vercel.app"],
   })
 );
 app.use("/api/goals", require("./routes/goalRoutes"));
