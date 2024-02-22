@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: ["https://lurkforgoals-frontend.vercel.app"],
+    methods: ["POST", "GET"],
   })
 );
 app.use("/api/goals", require("./routes/goalRoutes"));
