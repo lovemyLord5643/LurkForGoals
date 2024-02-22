@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/goals";
+const API_URL = "https://lurkforgoals-backend.vercel.app/api/goals";
 
 // Get user goals
 const getGoals = async (token) => {
